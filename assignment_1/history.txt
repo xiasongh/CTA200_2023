@@ -1,0 +1,42 @@
+    1  /cita/local/bin/passwd
+    2  ls
+    3  pwd
+    4  mkdir -p /fs/lustre/scratch/student06/CTA200_2023/assignment_1/
+    5  vi README.md
+    6  ls /home/murray/
+    7  pwd
+    8  cd /home/murray/
+    9  find . -name "Hello_world.c"
+   10  find . -name Hello_world.c
+   11  pwd
+   12  ls
+   13  cp /home/murray/Hello_world.* /fs/lustre/scratch/student06/CTA200_2023/assignment_1/
+   14  pwd
+   15  cd /fs/lustre/scratch/student06/CTA200_2023/assignment_1/
+   16  ls
+   17  mv Hello_world.c Hello_world_Huang.c
+   18  mv Hello_world.py Hello_world_Huang.py
+   19  ll
+   20  vim Hello_world_Huang.c
+   21  vi Hello_world_Huang.c
+   22  vi Hello_world_Huang.py
+   23  module load gcc
+   24  ls
+   25  gcc Hello_world_Huang.c
+   26  ls
+   27  mv a.out Hello_world.x
+   28  ll
+   29  ./Hello_world.x
+   30  python Hello_world_Huang.py
+   31  vi Hello_world_Huang.py
+   32  vi Hello_world_Huang.c
+   33  history
+   34  ls
+   35  gcc Hello_world_Huang.c
+   36  ls
+   37  history
+   38  ./a.out > output_c.txt
+   39  cat output_c.txt
+   40  python Hello_world_Huang.py > output_python.txt
+   41  cat output_python.txt
+   42  history
